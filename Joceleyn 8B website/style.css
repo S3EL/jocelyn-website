@@ -1,0 +1,63 @@
+body {
+    background-color:azure;
+}
+header {
+    border: 1px solid #3A3960;
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    color: #3A3960;
+}
+
+header p {
+    font-style: italic;
+}
+header img {
+    width: 60%;
+    border: 2px solid #5E686D;
+    border-radius: 50%;
+}
+
+header img:hover {
+    transform: scale(.8);
+    transition: all.3s ease-in-out;
+    box-shadow: 2px 2px 12px #5E686D;
+}
+
+header button{
+    display: block;
+    margin: 30px auto;
+    padding: 10px 30px;
+    background-color:#3A3960;
+    color: aliceblue;
+    border-radius: 15px;
+    border: 1px solid  rgb(119, 116, 233);
+}
+
+header button:hover{
+    background-color:#53509c;
+    color:azure;  
+      
+}
+.about {
+    text-align: center;
+    margin: 48px auto;
+}
+.about h2 {
+    color:#53509c ;
+}
+.project {
+    width: 90%;
+    margin: 20 px auto;
+    border: 1px solid #53509c;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+.project img {
+    width: 40%;
+}
